@@ -28,11 +28,11 @@
 16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает
  **-**`grep -i -c l a.txt`
 17) Вывести несколько первых строк из текстового файла
-**-**`sed -n '1,2'p a.txt / head -2 a.txt`
+**-**`sed -n '1,2'p 1.txt / head -2 a.txt`
 18) Вывести несколько последних строк из текстового файла
- **-**`sed -n '$'p a.txt / tail -2 a.txt` 
+ **-**`sed -n '$'p 1.txt / tail -2 a.txt` 
 19) Просмотреть содержимое длинного файла (команда less) изучите как она работает
- **-**`less a.txt`
+ **-**`less 1.txt`
 20) Вывести дату и время
  **-**`date`
 
@@ -43,19 +43,19 @@
 
 **#!/bin/bash<br>
 #Create folder<br>
-mkdir autopapka<br>
+mkdir d1<br>
 #Open folder<br>
-cd autopapka<br>
-#Create 3 folders in autopapka<br>
-mkdir af1 af2 af3<br>
-#Open af1<br>
-cd af1<br>
+cd d1<br>
+#Create 3 folders in d1<br>
+mkdir a1 a2 a3<br>
+#Open a1<br>
+cd a1<br>
 #Create 5 file:3txt and 2json<br>
-touch 1.txt 2.txt 3.txt x.json y.json<br>
+touch 1.txt 2.txt 3.txt 4.json 5.json<br>
 #Create 3 folders<br>
 mkdir f1 f2 f3<br>
-#Show me your body<br>
+#List the contents of folders<br>
 ls<br>
-#Move 2 json-file in f1<br>
-mv x.json y.json f1<br>**
+#Move 2 file in f1<br>
+mv 4.json 5.json f1<br>**
 
