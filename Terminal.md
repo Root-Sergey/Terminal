@@ -42,7 +42,6 @@
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13<br> **-**
 
 **#!/bin/bash<br>
-#Create folder<br>
 mkdir d1<br>
 #Open folder<br>
 cd d1<br>
